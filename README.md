@@ -49,6 +49,13 @@ Have fun writing tests, and check out the **Solution Video** of this project for
     **Note:** You can submit the form either clicking the button or hitting the Enter key on your keyboard.
 
 3. See how a successful log-in renders a welcome message, some user info, and a log-out button.
+    message: `Welcome back, ${username}. We LOVE you!`
+    user: {id: '', username: '', born: ''}
+
+    Logout :
+      message: "Bye! Please, come back soon."
+      status 200,
+      success: boolean
 
 4. Verify that submitting any other credentials, including an empty form, renders an "Invalid Credentials" message.
 
